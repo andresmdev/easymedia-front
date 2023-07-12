@@ -1,0 +1,25 @@
+body {
+  background-color: #9b8adb ;
+}
+
+/* quitar outline del input*/
+.inputStyle {
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 1px solid #fff;
+  border-radius: 0px;
+  outline: none !important;
+}
+
+
+
+.inputStyle:focus {
+  background-color: transparent;
+  box-shadow: none;
+  border-bottom: 1px solid #fff;
+}
+
+.gradient {
+  background: linear-gradient(90deg, #57bbdb 0%, #c646aa 100%);
+}
+
